@@ -1,4 +1,4 @@
 # Greeting Card Generator.
 
-###About
+### About
 web application which generates a greeting card.
