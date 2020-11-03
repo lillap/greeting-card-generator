@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Sacramento&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+  <header><h1>Greeting Card Generator</h1></header>  
+  
+  <div class="container">
+
+       <div class="formContainer">
+        <form id="cardForm">
+            <label for="receiver"><strong>To:</strong></label><br>
+            <input type="text" id="receiver" name="receiver"><br>
+
+            <label for="sender"><strong>From:</strong></label><br>
+            <input type="text" id="sender" name="sender"><br>
+
+            <label for="message"><strong>Message:</strong></label><br>
+            <textarea id="message" name="message"></textarea><br>
+            
+
+            <label for="backgroundColor"><strong>Background color:</strong></label><br>
+            <input type="color" id="backgroundColor"><br>
+            
+            
+            <label for="font"><strong>Font:</strong></label><br>
+            <input type="text" id="font" name="font"><br>
+
+            <label for="fontSize"><strong>Font size:</strong></label><br>
+            <input type="number" id="fontSize" name="fontSize"><br>
+
+            <label for="fontColor"><strong>Font color:</strong></label><br>
+            <input type="color" id="fontColor" name="fontColor"><br>
+
+            <input type="submit" value="Generate!" id="submitBtn">
+        </form>
+       </div>
+      
+
+        <div class="messageContainer">
+                <div id="receiverOutput"><strong>To: </strong></div>
+                <div id="senderOutput"><strong>From: </strong></div>
+                <div id="messageOutput"><strong>Message: </strong></div> 
+        </div>
+
+    </div>      
+
+
+
+    <script src="app.js" type="text/javascript"></script>
+</body>
+</html>

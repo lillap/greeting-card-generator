@@ -1,0 +1,58 @@
+
+body{
+	margin: 0;
+    padding: 0;
+    font-family:'Amatic SC', cursive;  
+}
+
+h1 {
+    font-family: 'Amatic SC', cursive;
+    size: 15em;
+    text-align: center;
+}
+
+label, input, textarea, .messageContainer{
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.25em;
+    margin-top: 4px;
+    margin-bottom: 15px;
+ 
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.formContainer {
+    height: 575px;
+    width: 412px;
+    border: 2px solid black;
+    border-radius:5px;
+    padding: 30px;
+    margin-bottom: 20px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+
+}
+
+.messageContainer {
+    height: 575px;
+    width: 412px;
+    border: 2px solid black;
+    border-radius:5px;
+    padding: 30px;
+    text-align: left;
+    justify-content: center;
+}
+
+#submitBtn{
+    justify-self: center;
+    font-weight: bold;
+    
+}
+
+#message, #fontColor, #backgroundColor, #submitBtn {
+    width: 126px;
+}
