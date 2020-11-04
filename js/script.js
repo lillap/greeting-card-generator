@@ -33,7 +33,6 @@ function getReceiverDetails(){
     receiverOutput.style.fontSize = fontSize.value + "px";
     
     const receiver = receiverElement.value;
-    console.log("Receiver", receiver);
     receiverOutput.innerText = "To: " + receiver;
 }
 
@@ -43,7 +42,6 @@ function getSenderDetails(){
     senderOutput.style.fontSize = fontSize.value + "px";
     
     const sender = senderElement.value;
-    console.log("Sender", sender);
     senderOutput.innerText = "From: " + sender;
 
 }
@@ -54,7 +52,6 @@ function getMessageDetails(){
     messageOutput.style.fontSize = fontSize.value + "px";
     
     const message = messageElement.value;
-    console.log("message", message)
     messageOutput.innerText = message; 
 }
 
@@ -65,7 +62,6 @@ function getCardStyling() {
 }
 
 function generateCard(){
-    console.log("inside generate card")
     getReceiverDetails();
     getSenderDetails();
     getMessageDetails();
